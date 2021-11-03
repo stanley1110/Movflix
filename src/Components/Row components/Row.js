@@ -11,11 +11,11 @@ function Row({ title, fetchurl, isLargeRow }) {
     async function fetchdata() {
       const request = await axios.get(fetchurl);
       setMovies(request.data.results);
-      console.log(request.data.results);
+      //console.log(request.data.results);
     }
     fetchdata();
   }, [fetchurl]);
-  console.log(movies);
+  //console.log(movies);
 
   return (
     <div className="row">
