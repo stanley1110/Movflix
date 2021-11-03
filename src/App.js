@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
 import Row from "./Components/Row components/Row";
 import requests from "./request";
 import Banner from "./Components/Banner component/Banner";
-
+import Nav from "./Components/Nav component/Nav";
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Row
         title="Netflix originals"

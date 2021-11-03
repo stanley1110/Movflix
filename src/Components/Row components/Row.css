@@ -22,6 +22,12 @@
 .row__posterLarge {
   max-height: 300px;
 }
+.title {
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: antiquewhite;
+}
 
 .row__posterLarge:hover {
   transform: scale(1.09);
